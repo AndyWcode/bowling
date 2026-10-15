@@ -14,10 +14,6 @@ const frames = [
 
 
 
-for(let frame = 0; frame < frames.length-1; frame++){
-        if(frames[frame][0] === 10 && frames[frame +1][0] === 10 && frames[frame +2][0] === 10)
-            console.log((frames[frame][0] +  frames[frame + 1][0] +frames[frame + 2][0]));}
-
 function bowloign(atempt){
     let scoreframes  = []
 
